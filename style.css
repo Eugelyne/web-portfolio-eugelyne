@@ -8,30 +8,15 @@
     box-sizing: border-box;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-  /* Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
 
 /* NAVIGATION BAR */
 nav{
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px 8%;
 }
 
 .navigation-bar{
@@ -50,12 +35,12 @@ nav{
     width: 50px;
     border-radius: 50px;
     position: relative;
-    right: 200px;
+    right: 80%;
 }
 
 ul{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 5px;
 }
 
@@ -76,10 +61,11 @@ li{
     animation-delay: 3s;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .nav-list a{
-    color: #000;
+    color: #cddcf0;
     text-decoration-line: none;
     padding: 2px;
     border-radius: 4px;
@@ -139,25 +125,21 @@ li{
     color: #ffc107;
 }
 
-.typewriter{
-    position: relative;
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(54, 49, 69); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40), alternate infinite;
 }
 
-.typewriter::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    color:rgb(73, 73, 119);
-    width: 100%;
-    background-color: #f9f6ef;
-    animation: typing 2.5s steps(30) alternate infinite;
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
-@keyframes typing{
-    to{
-        width: 0;
-    }
-}
 
 /* SECTION 1 (ABOUT) */
 #section-about{
