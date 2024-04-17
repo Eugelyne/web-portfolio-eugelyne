@@ -5,9 +5,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    color:#faf3e3;
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(Assets/Background.png);
+    background-size:cover;
+}
 
 /* NAVIGATION BAR */
 nav{
@@ -20,7 +25,7 @@ nav{
 }
 
 .navigation-bar{
-    background-color: rgb(73, 73, 119);
+    background-color: rgb(59, 48, 35);
     padding: 5px;
     margin: 0;
     height: 70px;
@@ -65,15 +70,12 @@ li{
 }
 
 .nav-list a{
-    color: #cddcf0;
+    color: #e6d9d3;
     text-decoration-line: none;
     padding: 2px;
     border-radius: 4px;
     font-weight: bold;
 }
-
-
-
 
 /* HEADER */
 #section-home{
