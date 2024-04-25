@@ -78,7 +78,7 @@ li{
     font-weight: bold;
 }
 
-/* HEADER */
+/* SECTION 1 (HOME-HEADER) */
 #section-home{
     height: 100vh;
     padding-top: 70px;
@@ -148,7 +148,7 @@ li{
 }
 
 
-/* SECTION 1 (ABOUT) */
+/* SECTION 2 (ABOUT) */
 #section-about{
     height: 100vh;
     padding-top: 70px;
@@ -207,7 +207,7 @@ li{
     height:79px;
 }
 
-/* SECTION 4 (CONTACT)*/
+/* SECTION 3 (CONTACT)*/
 #section-contact{
     height: 100vh;
     padding-top: 70px;
@@ -249,7 +249,7 @@ input[type="submit" i] {
     border-style: outset;
     border-color: buttonborder;
     border-image: initial;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
