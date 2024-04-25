@@ -184,7 +184,7 @@ li{
 
 .vision-statement p{
     margin: 15px;
-    height: 79px;
+    height: 120px;
 }
 
 .mission-statement h3{
@@ -231,6 +231,27 @@ legend{
     font-size: 30px;
     text-align: left;
 }
+
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color:#876348;
+    color:#DED8D4;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    font-family:'Courier New', Courier, monospace;
+}
+
 
 /* FOOTER */
 .main-footer{
