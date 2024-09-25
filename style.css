@@ -46,7 +46,7 @@ nav{
 
 ul{
     display: flex;
-    justify-content: right;
+    justify-content:flex-start;
     padding: 5px;
 }
 
@@ -138,7 +138,7 @@ li{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation: typing 5s  alternate infinite;
+    animation: typing 7s alternate infinite;
 }
 
   /* The typing effect */
